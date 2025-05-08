@@ -1,0 +1,7 @@
+langchain-community==0.3.21
+├── langchain-core [required: >=0.3.51,<1.0.0, installed: 0.3.51]
+├── langchain [required: >=0.3.23,<1.0.0, installed: 0.3.23]
+│   ├── langchain-core [required: >=0.3.51,<1.0.0, installed: 0.3.51]
+│   ├── langchain-text-splitters [required: >=0.3.8,<1.0.0, installed: 0.3.8]
+│   │   └── langchain-core [required: >=0.3.51,<1.0.0, installed: 0.3.51]
+ollama==0.4.7
