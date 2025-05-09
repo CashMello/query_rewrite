@@ -1,0 +1,11 @@
+langchain-community==0.3.21
+langchain-core==0.3.51
+langchain==0.3.23
+langchain-text-splitters==0.3.8
+ollama==0.4.7
+
+
+
+
+
+

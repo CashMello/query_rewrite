@@ -15,7 +15,7 @@ This module provides a query rewriting service using the Ollama LLM (Language Le
 1. Ensure you have Python 3.9+ installed
 2. Install the required dependencies:
    ```
-   pip install -r requirements.min
+   pip install -r requirements.txt
    ```
 3. Make sure you have Ollama installed and running with the desired model (default: "llama3.1:latest")
 
