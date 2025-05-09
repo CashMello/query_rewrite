@@ -67,14 +67,6 @@ model = ChatOllama(model="your-preferred-model")
 
 The system prompt can be customized by modifying the `PROMPTS["query_rewrite"]` in `prompt.py` or passing a different string when initializing the `QueryRewriter`.
 
-## Error Handling
-
-The module includes built-in error handling:
-
-- If JSON parsing fails, it falls back to line-based parsing
-- If all parsing fails and `fallback_on_error=True` (default), it returns the original query
-- Errors are logged with a warning message
-
 ## Methods
 
 ### `QueryRewriter.rewrite(query: str, max_variations: int = 3, fallback_on_error: bool = True) -> List[str]`
@@ -91,7 +83,7 @@ List of rewritten queries (always includes original as last element)
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.9+
 - `langchain-community`
 - `langchain-core`
 - Ollama with at least one LLM model installed
