@@ -9,15 +9,13 @@ This module provides a query rewriting service using the Ollama LLM (Language Le
 - Generates multiple query variations based on a single input query
 - Handles synonyms and different phrasings of the same question
 - Includes the original query in the results
-- Graceful error handling with fallback to original query
-- Configurable maximum number of variations
 
 ## Installation
 
-1. Ensure you have Python 3.7+ installed
+1. Ensure you have Python 3.9+ installed
 2. Install the required dependencies:
    ```
-   pip install langchain-community langchain-core
+   pip install -r requirements.min
    ```
 3. Make sure you have Ollama installed and running with the desired model (default: "llama3.1:latest")
 
