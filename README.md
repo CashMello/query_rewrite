@@ -88,13 +88,6 @@ List of rewritten queries (always includes original as last element)
 - `langchain-core`
 - Ollama with at least one LLM model installed
 
-## Example Use Cases
-
-1. Improving search engine results by submitting multiple query variations
-2. Data augmentation for training NLP models
-3. Generating test cases for search functionality
-4. Enhancing chatbot responses by understanding multiple phrasings of questions
-
 ## Troubleshooting
 
 If you encounter issues:
